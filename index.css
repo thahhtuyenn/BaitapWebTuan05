@@ -1,0 +1,132 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.grid__column-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.app {}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logoandlist {
+    width: 600px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {}
+
+.navbar__menu {}
+
+.navbar__menu-list {
+    display: flex;
+    list-style: none;
+    width: 467px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-list-item {
+    padding: 20px 10px;
+}
+
+.menu-list-item:hover .navbar_menu-link {
+    color: #00bdd6;
+}
+
+.menu-list-item:hover {
+    border-bottom: 4px solid #00bdd6;
+}
+
+.menu-list-item--active {
+    border-bottom: 4px solid #00bdd6;
+}
+
+.menu-list-item--active .navbar_menu-link {
+    color: #00bdd6;
+}
+
+.navbar_menu-link {
+    text-decoration: none;
+    height: 60px;
+    color: #676e7b;
+}
+
+.navbar__searchanduser {
+    display: flex;
+    width: 480px;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__searching {
+    width: 335px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+}
+
+.navbar__searching-icon {
+    color: #676e7b;
+    margin: 0 5px;
+}
+
+.navbar__searching-input {
+    border: none;
+    outline: none;
+    width: 325px;
+    height: 30px;
+    background-color: #f3f4f6;
+}
+
+.navbaar__shopinganduser {
+    display: flex;
+    width: 125px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoping-bell {
+    color: #676e7b;
+    font-size: 22px;
+}
+
+.shoping-icon {
+    color: #676e7b;
+    font-size: 22px;
+}
+
+.navbar-user {}
