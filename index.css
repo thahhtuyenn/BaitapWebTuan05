@@ -15,12 +15,12 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -8px;
 }
 
 .grid__column-6 {
     width: 50%;
-    padding: 0 15px;
+    padding: 0 8px;
 }
 
 .app {}
@@ -49,7 +49,7 @@ html {
 .navbar__menu-list {
     display: flex;
     list-style: none;
-    width: 467px;
+    width: 480px;
     justify-content: space-around;
     align-items: center;
 }
@@ -78,6 +78,7 @@ html {
     text-decoration: none;
     height: 60px;
     color: #676e7b;
+    font-weight: 600;
 }
 
 .navbar__searchanduser {
@@ -130,3 +131,114 @@ html {
 }
 
 .navbar-user {}
+
+
+/* production */
+
+.production {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.production-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu-list {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.prd-list-item {
+    padding: 5px 0px;
+}
+
+.prd-item-link {
+    text-decoration: none;
+    color: #676e7b;
+    font-weight: 500;
+}
+
+.prd-list-item-text {
+    width: 10px;
+    color: #676e7b;
+}
+
+.prd-item--active {
+    color: black;
+}
+
+.prd-item-link:hover {
+    color: black;
+}
+
+.production-title {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.production-evaluate {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.evaluate-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.evaluate-img {}
+
+.evaluate-text {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.evaluate-countreviews {
+    font-size: 16px;
+    font-weight: 500;
+    color: #676e7b;
+}
+
+.evaluate-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.eva-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65px;
+}
+
+.evaluate-icon {
+    color: #676e7b;
+}
+
+.evaluate-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.prd-img {
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
