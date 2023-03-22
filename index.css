@@ -33,6 +33,11 @@ html {
     padding: 0 8px;
 }
 
+.grid__column-2{
+    width: 16.6667%;
+    padding: 0 8px;
+}
+
 .app {}
 
 
@@ -151,6 +156,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 30px;
 }
 
 .production-menu {
@@ -549,7 +555,7 @@ html {
 
 /* Related product */
 .production-related{
-    margin-bottom: 65px;
+    margin-bottom: 85px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -651,4 +657,84 @@ html {
 .starandcount-count{
     font-size: 14px;
     color: #a9adb4;
+}
+
+/* Subscribe */
+.subscribe{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.subscribe-logo{
+
+}
+
+.subscribe-text{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscribe-input{
+    width: 380px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+}
+
+.input-icon{
+    font-size: 16px;
+    color: #676e7b;
+    margin-left: 10px;
+}
+
+.input-text{
+    border: none;
+    outline: none;
+    background-color: #f3f4f6;
+    font-size: 13px;
+    margin-left: -45px;
+} 
+
+.input-button{
+    width: 113px;
+    height: 35px;
+    background-color: #00bdd6;
+    border: none;
+    color: #f3f4f6;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* menu bottom */
+.menu-bottom{
+    height: 150px;
+    margin-bottom: 65px;
+}
+
+.bottom-list{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-list-item{
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 35px;
+    color: #545962;
+}
+
+.bottom-list-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
 }
